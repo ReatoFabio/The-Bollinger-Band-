@@ -18,13 +18,7 @@ A Bollinger Band is a technical analysis tool defined by a set of trendlines plo
 ## Data Processing
 We were able to utilize the Alpaca API to pull data from single name stock and ETFs for the duration (1.5 year). 
 
-`etfs = alpaca.get_barset(
-    tickers,
-    timeframe,
-    start = start_date,
-    end = end_date,
-    limit = 1000
-).df`
+`etfs = alpaca.get_barset(tickers, timeframe, start = start_date, end = end_date, limit = 1000).df`
 
 However, the Alpaca API doesn't have the same infomration for crypto. The workaround for that is google and yahoo finance. We either used the formula in google sheet to pull the data or just downloaded the date from yahoo finance and save them as csv. This workaround required a little bit more work to put all the crypto data together. 
 
@@ -38,8 +32,20 @@ Overall, data is very accessible and clean. We check did some basic data quality
 
 ---
 
-## Bollinger Bands in single name stocks vs EFTs vs Crypto
-insert graphs 
+## Analysis
+### Single Name Stock - Microsoft, Netflix, MasterCard, Exxon, and Disney
+![MSFT](msft_plot.jpg) 
+![NFLX](nflx_plot.jpg)
+![MA](ma_plot.jpg)
+![XOM](xom_plot.jpg)
+![DIS](dis_plot.jpg)
+### ETFs - iShares Core US Aggregate Bond, SPDR S&P 500, US Natural Gas Fund, Vanguard Real Estate Index Fund, iShares Investmet Grade Corporate Bond
+![AGG](agg_plot.jpg) 
+![SPY](spy_plot.jpg)
+![UNG](ung_plot.jpg)
+![VNQ](vnq_plot.jpg)
+![LQD](lqd_plot.jpg)
+### Crypto - 
 
 ## Beta as mesaure of volitality
 insert beta for each asset type
