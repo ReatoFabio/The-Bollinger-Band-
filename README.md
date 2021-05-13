@@ -6,7 +6,8 @@ A Bollinger Band is a technical analysis tool defined by a set of trendlines plo
 - Middle Band: Simple Moving Average
 - Upper Band: Simple Moving Average + 2 Standard Deviations
 - Lower Band: Simple Moving Average - 2 Standard Deviations
-### They developed and copyrighted by technical trader John Bollinger, with the goal to discover opportunities that give investors a higher probability of properly identifying when an asset is oversold or overbought.
+
+They developed and copyrighted by technical trader John Bollinger, with the goal to discover opportunities that give investors a higher probability of properly identifying when an asset is oversold or overbought.
 
 ## *What does it have to do with our project?*
 ### The questions we are trying to answer: 
