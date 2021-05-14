@@ -3,11 +3,13 @@
 ## *What is Bollinger Bands?*
 A Bollinger Band is a technical analysis tool defined by a set of trendlines plotted two standard deviations (positively and negatively) away from a Simple Moving Average of a security's price, but which can be adjusted to user preferences.
 ### Three lines compose Bollinger Bands:
-- Middle Band: Simple Moving Average
-- Upper Band: Simple Moving Average + 2 Standard Deviations
-- Lower Band: Simple Moving Average - 2 Standard Deviations
+- Middle Band: 20 Days Simple Moving Average
+- Upper Band: Simple Moving Average + 2 x 20 Days Rolling Standard Deviation
+- Lower Band: Simple Moving Average - 2 x 20 Days Rolling Standard Deviation
 
 They developed and copyrighted by technical trader John Bollinger, with the goal to discover opportunities that give investors a higher probability of properly identifying when an asset is oversold or overbought.
+
+Bollinger Bands are used for trading strategies: When the security's price is in an ascending trend and it touches the middle or the upper band, it might be a good indicator to short the stock since a correction is likely to happen, while when the price is in a descending trend and touches the lower band or the middle band it might be a good signal to buy it. 
 
 ## *What does it have to do with our project?*
 ### The questions we are trying to answer: 
@@ -72,7 +74,7 @@ insert graph
 ---
 
 ## Conclusion
-insert conclusion
+We wanted to analyze the efficiency of the Bollinger Bands by testing them with different kind of assets. Our initial belief was that Bollinger Bands would have proved to be not effective with highly volatile assets - for example cryptocurrencies. 
 
 ---
 ## Presenters
