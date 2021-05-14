@@ -1,12 +1,13 @@
 # **Bollinger Bands**
-![Bollinger Bands](bollingerbands.jpg)
+![Bollinger Bands](graphs/bollingerbands.jpg)
 ## *What is Bollinger Bands?*
 A Bollinger Band is a technical analysis tool defined by a set of trendlines plotted two standard deviations (positively and negatively) away from a Simple Moving Average of a security's price, but which can be adjusted to user preferences.
 ### Three lines compose Bollinger Bands:
 - Middle Band: Simple Moving Average
 - Upper Band: Simple Moving Average + 2 Standard Deviations
 - Lower Band: Simple Moving Average - 2 Standard Deviations
-### They developed and copyrighted by technical trader John Bollinger, with the goal to discover opportunities that give investors a higher probability of properly identifying when an asset is oversold or overbought.
+
+They developed and copyrighted by technical trader John Bollinger, with the goal to discover opportunities that give investors a higher probability of properly identifying when an asset is oversold or overbought.
 
 ## *What does it have to do with our project?*
 ### The questions we are trying to answer: 
@@ -41,23 +42,23 @@ Overall, data is accessible and clean. We did some basic data quality check such
 
 ## Analysis
 ### Single Name Stock - Microsoft, Netflix, MasterCard, Exxon, and Disney
-![MSFT](msft.jpg) 
-![NFLX](nflx.jpg)
-![MA](ma.jpg)
-![XOM](xom.jpg)
-![DIS](dis.jpg)
+![MSFT](graphs/msft.jpg) 
+![NFLX](graphs/nflx.jpg)
+![MA](graphs/ma.jpg)
+![XOM](graphs/xom.jpg)
+![DIS](graphs/dis.jpg)
 ### ETFs - iShares Core US Aggregate Bond, SPDR S&P 500, US Natural Gas Fund, Vanguard Real Estate Index Fund, iShares Investmet Grade Corporate Bond
-![AGG](agg.jpg) 
-![SPY](spy.jpg)
-![UNG](ung.jpg)
-![VNQ](vnq.jpg)
-![LQD](lqd.jpg)
+![AGG](graphs/agg.jpg) 
+![SPY](graphs/spy.jpg)
+![UNG](graphs/ung.jpg)
+![VNQ](graphs/vnq.jpg)
+![LQD](graphs/lqd.jpg)
 ### Crypto - Bitcoin, Dogecoin, Ethereum, Chainlink, IoT Chain
-![BTC](btc.jpg) 
-![DOGE](doge.jpg)
-![ETH](eth.jpg)
-![LINK](link.jpg)
-![ITC](itc.jpg)
+![BTC](graphs/btc.jpg) 
+![DOGE](graphs/doge.jpg)
+![ETH](graphs/eth.jpg)
+![LINK](graphs/link.jpg)
+![LTC](graphs/ltc.jpg)
 
 ## Beta as mesaure of volitality
 insert table
@@ -73,6 +74,8 @@ insert graph
 ## Conclusion
 insert conclusion
 
-# Pending Items to be addressed
-1. use a libary that is not covered in class
+---
+## Presenters
+Willy Feid, Alice Lin, Julian Lopez, and Fabio Reato 
+
 
