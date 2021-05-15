@@ -1,4 +1,4 @@
-# **Bollinger Bands**
+# **Bollinger Gang**
 ![Bollinger Bands](graphs/bollingerbands.jpg)
 ## *What is Bollinger Bands?*
 A Bollinger Band is a technical analysis tool defined by a set of trendlines plotted two standard deviations (positively and negatively) away from a Simple Moving Average of a security's price, but which can be adjusted to user preferences.
