@@ -11,6 +11,9 @@ They developed and copyrighted by technical trader John Bollinger, with the goal
 
 Bollinger Bands are used for trading strategies: When the security's price is in an ascending trend and it touches the middle or the upper band, it might be a good indicator to short the stock since a correction is likely to happen, while when the price is in a descending trend and touches the lower band or the middle band it might be a good signal to buy it. 
 
+*Key assumption:* Asset prices disperse around the SMA following a normal distribution. As a result, 95% of prices will fall between 2 standard deviations of the SMA. 
+*Key idea:* The volatility of the price of an asset is not constant. As a result, there exists fluctuations in the spread between the upper and lower Bollinger Bands. More specifically, if the volatility of an asset price falls, then the spread between the bands will contract. Conversely, if the volatility of an asset price increases, the spread between the bands expand. This will have important implications for trading strategies based on the analysis of Bollinger Bands
+
 ## *What does it have to do with our project?*
 ### The questions we are trying to answer: 
 1. How well does the Bollinger Bands work in different asset type?
@@ -98,7 +101,18 @@ This confirms the small beta for crypto because it's less sensitive to S&P 500 t
 ---
 
 ## Conclusion
-We wanted to analyze the efficiency of the Bollinger Bands by testing them with different kind of assets. Our initial belief was that Bollinger Bands would have proved to be not effective with highly volatile assets - for example cryptocurrencies. 
+We wanted to analyze the efficiency of the Bollinger Bands by testing them with different kind of assets. Our initial belief was that Bollinger Bands would have proved to be not effective with highly volatile assets - for example cryptocurrencies. We discovered that yes, when the bands are wider, it means that a market is more volatile (crypto assets); while narrower bands mean that a market is more stable.
+
+*Pros:*
+- Easier to comprehend.           
+- Bollinger bands may be a good indicator of market volatility
+- The bands can also help with identifying new trends and the end of trends         
+
+*Cons:*
+- Traders might not receive signals until the price movement is already underway.
+- Need to be used in conjunction with other forms of technical analysis 
+- Not reliable in certain market conditions
+- They weight older price data the same as the most recent
 
 ---
 ## Presenters
