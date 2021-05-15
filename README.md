@@ -40,6 +40,8 @@ btc_df.sort_index(inplace=True)`
 
 Overall, data is accessible and clean. We did some basic data quality check such as checking for na or null. 
 
+New Library - Cufflinks is an interactive visualization library that binds the power of plotly with the flexibility of pandas. 
+
 ---
 
 ## Analysis
@@ -62,14 +64,36 @@ Overall, data is accessible and clean. We did some basic data quality check such
 ![LINK](graphs/link.jpg)
 ![LTC](graphs/ltc.jpg)
 
-## Beta as mesaure of volitality
-insert table
+To our surprise, the Bollinger Bands actually work for cryptocurrencies as well as stock and EFTs despite the repuration of being irregular and irrational in the crypto world. Looking at the graphs crossing different asset type, the prices are inside the bands most of the time. 
+
+One interesting observation is the movement during March 2020 (we all know what happened). Stocks and ETFs had distinct dips with various degree during that few months with UNG, which is Nautral Gas Fund. Supposely the pandemic didn't have much impact in natural gas. The other sector that didn't get impacted for as long is the crypto market. For example, DOGE didn't move much during that time while other dipped a little for a few days and they were back to BUA. 
+
 
 ## % of data that's out side the bands in each asset type
-insert table
+| Asset | % above Upper Band | % below Lower Band | Total % outside Bands |
+| ----------- | ----------- | ----------- | ----------- |
+| MSFT | 9.27% | 1.97% | 11.24% |
+| NFLX | 7.87%t | 2.25% | 10.11% |
+| MA | 5.34% | 2.81% | 8.15% |
+| XOM | 5.90% | 5.62% | 11.52% |
+| DIS | 3.93% | 4.78% | 8.71% |
+| AGG | 4.21% | 5.34% | 9.55% |
+| SPY | 4.78% | 2.81% | 7.58% |
+| UNG | 1.97% | 7.02% | 8.99% |
+| VNQ | 5.62% | 4.49% | 10.11% |
+| LQD | 4.49% | 5.62% | 10.11% |
+| BTC | 9.27% | 2.51% | 11.78 |
+| DOGE | 11.00% | 2.70% | 13.71% |
+| ETH | 10.81% | 1.35% | 12.16% |
+| LINK | 11.00% | 3.67% | 14.67% |
+| LTC | 11.58% | 1.93% | 13.51% |
 
-## Correlation b/w beta and outside band %?
-insert graph
+Above table confirms that the Bollinger Bands work cross asset types. In general, the % of data point outside the bands is between 7.58% to 14.67%. Cryptcurrencies do have more points outsdie the bands than the others. Another interesting observation is that among the outside band data, there are more points above upper band than below lower band. That could  be interpreted as the investment appreciates in the **long run**. 
+
+## Beta
+According to Investopedia "[t]he beta calculation is used to help investors understand whether a stock moves in the same direction as the rest of the market. It also provides insights about how volatile–or how risky–a stock is relative to the rest of the market. **For beta to provide any useful insight, the market that is used as a benchmark should be related to the stock**. For example, calculating a bond ETF's beta using the S&P 500 as the benchmark would not provide much helpful insight for an investor because bonds and stocks are too dissimilar."
+
+This confirms the small beta for crypto because it's less sensitive to S&P 500 than the other single name stock. In order to comupte the beta for crypto, perhaps the equivalent "S&P 500" should be developed. 
 
 ---
 
